@@ -1,0 +1,177 @@
+* {
+  font-family: 'Catamaran', sans-serif;
+}
+
+header {
+  background-image: url("banner-home.png");
+  background-size: cover;
+  color: #fff;
+}
+
+#logo {
+  width: 200px;
+}
+
+#navbarSupportedContent {
+    padding: 3%;
+}
+
+#navbarSupportedContent ul li a {
+  color: #fff;
+  font-weight: 600;
+}
+
+#titulo {
+  padding: 8%;
+}
+
+ #teste-gratis {
+   background-color:#021a61;
+   color:#fff;
+   border-style:none;
+   padding-top:0.5%;
+   padding-right: 1%;
+   padding-left: 1%;
+   font-weight:600;
+   font-size: 1.4rem;
+ }
+/*main */
+
+#como-funciona {
+  color:#b1269f;
+}
+
+#homem-celular {
+  background-image: url('homem-celular.png');
+  background-size: cover;
+
+
+}
+#recursos, #garantia {
+  background-color: #ececec;
+  color: #b1269f;
+}
+
+#como-configurar {
+  background-color: #021a61; /* For browsers that do not support gradients */
+  background-image: linear-gradient(to right, #b1269f , #021a61); /* Standard syntax (must be last) */
+
+}
+
+#assistir-video {
+  background-color:#b1269f;
+  color:#fff;
+  border-style:none;
+  padding-top:0.5%;
+  font-weight:600;
+  font-size: 1.4rem;
+}
+
+
+#como-configurar-2 .display-4 {
+  color: #b1269f;
+}
+
+#como-configurar-2 .display-5 {
+  color: #b1269f;
+}
+
+#planos {
+  background-color: #021a61
+
+}
+
+#mensal, #trimestral, #semestral {
+  width:80%;
+  background-color:#fff;
+  border-radius:50px;
+}
+
+#resultados {
+  background-color:#ececec;
+}
+
+
+
+#link-teste:link, #link-teste:visited {
+  background-color: #fff;
+  color: #b1269f;
+  text-decoration: none;
+  display: inline-block;
+  border: 1px solid #b1269f;
+  border-radius: 10px;
+}
+
+
+#link-teste:hover, #link-teste:active {
+  background-color: #b1269f;
+  border-color: #fff;
+  color: #fff;
+}
+
+#veja-todas {
+  background-color: #021a61;
+  color: #fff;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 50px;
+  width: 15%;
+}
+
+#botao-assinatura {
+  background-color: #b1269f;
+  color: #fff;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 50px;
+  width: 80%;
+  font-weight: bold;
+}
+
+#contato {
+  background-image: url('bg-contato.png');
+  background-size:cover;
+}
+
+.wave1 {
+  width:100%;
+}
+
+.links-footer a {
+  color: #fff;
+}
+
+.carousel-indicators #indicador{
+  border: 2px solid #b1269f;
+  border-radius: 50px;
+  width:2rem;
+  height:2rem;
+  color:#b1269f;
+  text-indent: 0;
+  font-size: 1.3rem;
+
+}
+
+
+
+
+@media only screen and (max-width: 600px) {
+  #veja-todas {
+    width:70%;
+  }
+
+  #botao-assinatura {
+    width:70%;
+  }
+
+  #logo-footer {
+    width:70%;
+  }
+
+  .carousel-indicators {
+    margin-top: 50%;
+  }
+
+
+
+}
