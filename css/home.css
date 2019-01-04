@@ -3,7 +3,7 @@
 }
 
 header {
-  background-image: url("banner-home.png");
+  background-image: url('../img/banner-home.png');
   background-size: cover;
   color: #fff;
 }
@@ -162,7 +162,7 @@ header {
 }
 
 #contato {
-  background-image: url('bg-contato.png');
+  background-image: url('../img/bg-contato.png');
   background-size:cover;
 }
 
