@@ -25,7 +25,7 @@ header {
   padding: 8%;
 }
 
- #teste-gratis {
+ #teste-gratis, #teste-gratis-2 {
    background-color:#021a61;
    color:#fff;
    border-radius: 50px;
@@ -38,7 +38,7 @@ header {
    transition: 0.3s;
  }
 
- #teste-gratis:hover {
+ #teste-gratis:hover, #teste-gratis-2:hover {
    font-size: 1.5rem;
    text-decoration: none;
  }
@@ -214,6 +214,21 @@ header {
   background-color:#021a61;
 }
 
+#margem-itens {
+  margin-top:-15% !important;
+}
+
+#imagem-homem-celular {
+  margin-bottom:-5% !important;
+  margin-top:10% !important;
+  margin-left:7% !important;
+  width:100%;
+}
+
+svg #ueue {
+  margin-top:-10%;
+  height: 200px;
+}
 
 @media only screen and (max-width: 600px) {
   #veja-todas {
@@ -240,5 +255,59 @@ header {
     width:20% !important;
     margin-left: 40% !important;
     margin-bottom:-5% !important;
+  }
+
+  #teste-gratis-2 {
+    font-size:1rem;
+
+  }
+
+  #teste-gratis-2:hover {
+    font-size:1rem;
+  }
+
+  #teste-gratis:hover {
+    text-decoration: none;
+    font-size:1.4rem;
+  }
+
+  #botao-assinatura {
+    width:90%;
+  }
+
+  #imagem-homem-celular {
+    margin-bottom:-6% !important;
+    margin-top:10% !important;
+    margin-left:7% !important;
+  }
+
+}
+
+@media only screen and (max-width: 320px) {
+
+
+  #titulo-configurar-1 {
+    font-size: 1.7rem;
+
+  }
+
+  #como-funciona h1, #como-configurar-2 h1, #recursos .container h1{
+    font-size:1.7rem;
+  }
+
+  button .navbar-toggler {
+    font-size: 0.5rem !important;
+  }
+
+  #logo {
+    width:150px;
+  }
+
+  #teste-gratis {
+    font-size:1.2rem;
+  }
+
+  #teste-gratis:hover {
+    font-size:1.2rem;
   }
 }
