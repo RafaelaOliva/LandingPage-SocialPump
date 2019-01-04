@@ -46,17 +46,21 @@
       </navbar>
 
       <div class="container-fluid" id="titulo">
-        <div class="text">
-          <p class="h1 text-right" style="font-weight:900;">TRANSFORME SEU INSTAGRAM<br>EM UMA MÁQUINA DE VENDAS</p>
+        <div class="row">
+          <div class="col-12 col-md-8 offset-md-4">
+            <div class="text">
+              <p class="h1 text-right" style="font-weight:900;">TRANSFORME SEU INSTAGRAM<br>EM UMA MÁQUINA DE VENDAS</p>
+            </div>
+            <div align="right">
+              <p class="text-right">Você pode conquistar de 45 a 230 seguidores por dia.</p>
+
+              <a href="#" id="teste-gratis">
+                <i class="fas fa-chevron-circle-right" style="font-size:1.5rem;"></i> TESTE GRÁTIS POR 5 DIAS
+              </a>
+            </div>
+          </div>
         </div>
-        <p class="text-right">Você pode conquistar de 45 a 230 seguidores por dia.
-          <br>
-          <a href="#">
-            <button type="button" class="rounded-pill" id="teste-gratis">
-            <i class="fas fa-chevron-circle-right" style="font-size:1.5rem;"></i> TESTE GRÁTIS POR 5 DIAS
-            </button>
-          </a>
-        </p>
+
       </div>
     </header>
 
@@ -139,10 +143,8 @@
                   conteúdos criados para ajudar a aumentar suas vendas.</p>
                 </div>
               </div>
-              <a href="#">
-                <button type="button" class="rounded-pill mt-4 mb-4" id="teste-gratis">
+              <a href="#" id="teste-gratis">
                 <i class="fas fa-chevron-circle-right" style="font-size:1.5rem;"></i> TESTE GRÁTIS POR 5 DIAS
-                </button>
               </a>
             </div>
           </div>
@@ -169,13 +171,15 @@
       <p class="h1 text-center" style="font-weight:800;color:#b1269f;">DEPOIMENTOS<br>DOS CLIENTES</h1>
       <p class="text-center" style="color:#b1269f;">Resultado é a alma do negócio! Olha só o que os clientes estão falando.</p>
 
-      <div id="carouselIndicators" class="carousel slide" data-ride="carousel">
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
 
-        <ol class="carousel-indicators">
-          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        <ol class="carousel-indicators" id="indicador-depoimentos" style="background-color:#ececec;width:10%; margin-left:45%; margin-bottom:-2%; border-radius:50px;padding:0.5%;">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active">.</li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1">.</li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2">.</li>
+
         </ol>
+
 
         <div class="carousel-inner">
           <div class="carousel-item active">
@@ -306,7 +310,7 @@
       <div class="row">
 
         <div class="col-md-5 col-sm-12">
-          <img src="celular-configurar.png" class="img-fluid" style="width:100%; margin-bottom:-15% !important;">
+          <img src="celular-configurar.png" class="img-fluid" style="width:100%; margin-bottom:-14% !important;">
         </div>
 
         <div class="col-md-7 col-sm-12 p-5 text-right">
@@ -315,10 +319,8 @@
               Entenda como o SocialPump vai te ajudar a atrair
               seguidores da sua cidade, estado ou região.</p>
 
-          <a href="#">
-            <button type="button" class="rounded-pill" id="assistir-video">
+          <a href="#" id="assistir-video">
             <i class="fas fa-chevron-circle-right" style="font-size:1.5rem;"></i>ASSISTA O VÍDEO
-            </button>
           </a>
         </div>
       </div>
@@ -363,7 +365,7 @@
             <div class="container mt-5">
               <div class="row">
                 <div class="col-lg-5 col-sm-12">
-                  <img src="300.png" class="rounded-circle float-right">
+                  <img src="300.png" class="rounded-circle float-right img-fluid">
                 </div>
                 <div class="col-lg-5 col-sm-12">
                   <h1 style="font-weight:900;color:#021a61;" class="mt-5">DEFINA SEU PÚBLICO</h1>
@@ -383,7 +385,7 @@
             <div class="container mt-5">
               <div class="row">
                 <div class="col-lg-5 col-sm-12">
-                  <img src="300.png" class="rounded-circle float-right pt-0">
+                  <img src="300.png" class="rounded-circle float-right img-fluid">
                 </div>
                 <div class="col-lg-5 col-sm-12">
                   <h1 style="font-weight:900;color:#021a61;" class="mt-5">DEFINA SEU PÚBLICO</h1>
@@ -669,7 +671,7 @@
         </p>
 
         <div class="row mt-5">
-          <div class="col-md-6">
+          <div class="col-md-6" id="botoes-faq">
             <a class="p-2 mb-3" data-toggle="collapse" href="#collapse1" aria-expanded="false" aria-controls="collapseExample" id="link-teste" style="width:100%">
               <div class="row">
                 <div class="col-10 col-lg-11">
@@ -767,7 +769,7 @@
             </div>
           </div>
 
-          <div class="col-md-6">
+          <div class="col-md-6" id="botoes-faq">
             <a class="p-2 mb-3" data-toggle="collapse" href="#collapse7" aria-expanded="false" aria-controls="collapseExample" id="link-teste" style="width:100%">
               <div class="row">
                 <div class="col-10 col-lg-11">
@@ -923,11 +925,11 @@
                   <br>
                   HORÁRIO DE ATENDIMENTO
                   <br>
-                  <a href="#">Seg a sexta: 08 h às 23 h</a>
+                  Seg a sexta: 08 h às 23 h
                   <br>
-                  <a href="#">Sábado: 09 h às 17 h</a>
+                  Sábado: 09 h às 17 h<
                   <br>
-                  <a href="#">Domingo: 14 h às 20 h</a>
+                  Domingo: 14 h às 20 h
                 </p>
               </div>
               <div class="col-md-4 col-sm-12">
@@ -979,7 +981,7 @@
                         </div>
                       </div>
                       <div class="col-md-4 col-6">
-                        <button type="submit" class="btn btn-primary" style="border-radius:50px;background-color:#b1269f;border-color:#b1269f;font-weight:bold;font-size:1.3rem;padding-left:25%;padding-right:25%;">ENVIAR</button>
+                        <button type="submit" class="btn btn-primary" id="form-button">ENVIAR</button>
                       </div>
                     </div>
                   </div>
