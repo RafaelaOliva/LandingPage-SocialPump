@@ -41,19 +41,13 @@ header {
   color:#b1269f;
 }
 
-#homem-celular {
-  background-image: url('homem-celular.png');
-  background-size: cover;
-
-
-}
 #recursos, #garantia {
   background-color: #ececec;
   color: #b1269f;
 }
 
 #como-configurar {
-  background-color: #021a61; /* For browsers that do not support gradients */
+  background-color: #021a61;  /*For browsers that do not support gradients */
   background-image: linear-gradient(to right, #b1269f , #021a61); /* Standard syntax (must be last) */
 
 }
@@ -66,7 +60,6 @@ header {
   font-weight:600;
   font-size: 1.4rem;
 }
-
 
 #como-configurar-2 .display-4 {
   color: #b1269f;
@@ -149,6 +142,7 @@ header {
   color:#b1269f;
   text-indent: 0;
   font-size: 1.3rem;
+  margin-bottom:-40% !important;
 
 }
 
@@ -172,6 +166,8 @@ header {
     margin-top: 50%;
   }
 
-
+  #contato {
+    margin-top:-7% !important;
+  }
 
 }
