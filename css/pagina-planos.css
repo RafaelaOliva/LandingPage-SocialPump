@@ -1,0 +1,133 @@
+* {
+  font-family: 'Catamaran', sans-serif;
+}
+
+header {
+  background-image: url('../img/banner-planos.png');
+  background-size: cover;
+  color: #fff;
+}
+
+#logo {
+  width: 200px;
+}
+
+#navbarSupportedContent {
+    padding: 3%;
+}
+
+#navbarSupportedContent ul li a {
+  color: #fff;
+  font-weight: 600;
+}
+
+#navbarSupportedContent ul .nav-item {
+  transition:0.4s;
+}
+
+#navbarSupportedContent ul .nav-item:hover {
+  background: rgba(25, 25, 25, .5);
+
+}
+
+.recursos .col-12 .row {
+  transition:0.3s;
+}
+
+.recursos .col-12 .row:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transform:scale(1.1);
+
+}
+
+
+.h4 {
+  color:#b1269f;
+}
+
+div#myDiv {
+  transform: skew(0deg,1deg); /* Standard syntax */
+  width: 100%;
+  background-color: #b1269f;
+  border: 1px solid #b1269f;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+div#myDiv div {
+  transform: skew(0deg,-1deg);
+}
+
+div#myDiv .row .col-12 {
+  transform: skew(0deg,0deg);
+}
+
+
+
+div#myDiv div h1.display-4, p.h1 {
+  color:#fff;
+  font-weight:900;
+}
+
+.botao-contratar-plano {
+  background-color: #fff;
+  color: #b1269f;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 50px;
+  width: 10%;
+  font-weight: bold;
+  transition: 0.3s;
+  padding:0.5%;
+}
+
+.botao-contratar-plano:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transform: scale(1.1);
+  text-decoration: none;
+  color: #b1269f;
+}
+
+#form-button {
+  border-radius:50px;
+  background-color:#b1269f;
+  border-color:#b1269f;
+  font-weight:bold;
+  font-size:1.3rem;
+  padding-left:25%;
+  padding-right:25%;
+  transition: 0.3s
+}
+
+#form-button:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.form-group input.form-control, textarea.form-control {
+  border-color: #b1269f !important;
+}
+
+@media only screen and (max-width: 320px) {
+  #titulo div div p {
+    font-size:1.7rem;
+  }
+
+  #logo {
+    width:150px;
+  }
+
+}
+
+@media only screen and (max-width: 600px) {
+
+  .col-12 img {
+    width:50%;
+    margin-left:30%;
+  }
+
+  .botao-contratar-plano {
+    width:60%;
+  }
+
+}
