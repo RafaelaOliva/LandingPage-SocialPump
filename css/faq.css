@@ -1,3 +1,23 @@
+nav {
+  background-color: #b1269f !important;
+}
+
+.navbar-collapse ul li a {
+  transition: 0.3s;
+  color:#fff !important;
+
+}
+
+.navbar-collapse ul li a:hover {
+  transform: scale(1.2);
+}
+
+#logo {
+  width: 200px;
+}
+
+
+
 /*card do FAQ*/
 .card {
   border: 1px solid #b1269f;
@@ -44,4 +64,11 @@
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   transform: scale(1.1);
 
+}
+
+@media only screen and (max-width: 600px) {
+
+  #logo {
+    width: 150px;
+  }
 }
