@@ -46,21 +46,21 @@ header {
 }
 
 div#myDiv {
-  transform: skew(0deg,1deg); /* Standard syntax */
+  /*transform: skew(0deg,1deg);Standard syntax */
   width: 100%;
   background-color: #b1269f;
   border: 1px solid #b1269f;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-top: -3.6%;
 
 }
 
-div#myDiv div {
+/*div#myDiv div {
   transform: skew(0deg,-1deg);
 }
 
 div#myDiv .row .col-12 {
   transform: skew(0deg,0deg);
-}
+}*/
 
 
 
@@ -108,6 +108,12 @@ div#myDiv div h1.display-4, p.h1 {
   border-color: #b1269f !important;
 }
 
+#recursos-esquerda {
+  background-color:#021a61;
+  color:#fff;
+  z-index:-1;
+  height:850px;
+}
 @media only screen and (max-width: 320px) {
   #titulo div div p {
     font-size:1.7rem;
@@ -130,4 +136,7 @@ div#myDiv div h1.display-4, p.h1 {
     width:60%;
   }
 
+  #recursos-esquerda {
+    height: auto;
+  }
 }
