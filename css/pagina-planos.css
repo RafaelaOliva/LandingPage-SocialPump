@@ -1,5 +1,6 @@
 * {
-  font-family: 'Catamaran', sans-serif;
+  font-family: 'Abel', sans-serif;
+
 }
 
 header {
@@ -12,23 +13,20 @@ header {
   width: 200px;
 }
 
-#navbarSupportedContent {
-    padding: 3%;
+header nav {
+  background-color: transparent;
 }
 
-#navbarSupportedContent ul li a {
-  color: #fff;
-  font-weight: 600;
-}
-
-#navbarSupportedContent ul .nav-item {
-  transition:0.4s;
-}
-
-#navbarSupportedContent ul .nav-item:hover {
-  background: rgba(25, 25, 25, .5);
+.navbar-collapse ul li a {
+  transition: 0.3s;
+  color:#fff !important;
 
 }
+
+.navbar-collapse ul li a:hover {
+  transform: scale(1.2);
+}
+
 
 .recursos .col-12 .row {
   transition:0.3s;

@@ -8,51 +8,57 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/home-2.css">
-    <link href="https://fonts.googleapis.com/css?family=Catamaran:500,700,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
     <title>Home</title>
   </head>
   <body>
     <header>
-      <navbar>
-        <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
-          <a class="navbar-brand ml-5" href="#"><img src="img/logo-sp.png" id="logo"></a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-
-          <!--<div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">-->
-          <div class="collapse navbar-collapse dual-nav w-50 order-2" id="navbarSupportedContent">
-            <ul class="nav navbar-nav ml-auto">
-              <li class="nav-item">
-                <a class="nav-link" href="#">QUEM SOMOS</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">AFILIADOS</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">AGÊNCIAS</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">SUPORTE</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">LOGIN</a>
-              </li>
-            </ul>
+      <!--
+      3 - Navbar with brand center, links on left and right that all collapse into the vertical mobile
+          menu
+      -->
+      <nav class="navbar navbar-light navbar-expand-md justify-content-between">
+          <div class="container-fluid">
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".dual-nav">
+                  <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="navbar-collapse collapse dual-nav w-50 order-1 order-md-0">
+                  <ul class="navbar-nav">
+                      <li class="nav-item active">
+                          <a class="nav-link pl-0" href="#">HOME <span class="sr-only">Home</span></a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="#">BLOG</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="faq.html">FAQ</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="#">LOGIN</a>
+                      </li>
+                  </ul>
+              </div>
+              <a href="/" class="navbar-brand mx-auto d-block text-center order-0 order-md-1 w-25">
+                <img src="img/logo-sp.png" id="logo">
+              </a>
+              <div class="navbar-collapse collapse dual-nav w-50 order-2">
+                  <ul class="nav navbar-nav ml-auto">
+                      <li class="nav-item"><a class="nav-link" href=""><i class="fab fa-facebook"></i></a></li>
+                      <li class="nav-item"><a class="nav-link" href=""><i class="fab fa-twitter"></i></a></li>
+                  </ul>
+              </div>
           </div>
-        </nav>
-      </navbar>
+      </nav>
 
       <div class="container-fluid" id="titulo">
         <div class="row">
           <div class="col-12 col-md-8 offset-md-4">
-            <p class="h1 text-right" style="font-weight:900;">CONQUISTE MILHARES DE SEGUIDORES REAIS E SEGMENTADOS E AUMENTE SUAS VENDAS</p>
+            <p class="h2 text-right" style="font-weight:900;">CONQUISTE MILHARES DE SEGUIDORES REAIS E SEGMENTADOS E AUMENTE SUAS VENDAS</p>
             <p class="text-right">Conquiste até 200 seguidores por dia.</p>
             <div align="right">
               <a href="#" id="teste-gratis">
-                <i class="fas fa-chevron-circle-right" style="font-size:1.5rem;"></i> TESTE GRÁTIS POR 5 DIAS
+                TESTE GRÁTIS POR 5 DIAS
               </a>
             </div>
           </div>
@@ -61,23 +67,85 @@
       </div>
     </header>
 
-    <section class="container-fluid mb-5" id="como-funciona">
-      <h1 class="display-4 text-center mt-5" style="font-weight:900;">COMO FUNCIONA? É SEGURO?</h1>
-      <p class="text-center" style="margin-top:-1%;">Assista ao video demonstrativo SocialPump<br>
-        A ferramenta ideal para aumentar os seus resultados no instagram</p>
+    <section class="container-fluid mb-5 mt-5" id="como-funciona">
 
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-12 col-md-6 offset-md-3">
-            <div class="embed-responsive embed-responsive-16by9">
-              <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/af6L1jBZGYA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <div class="row">
+        <div class="col-md-5">
+          <img src="img/instagram-icons.png" width="80%" style="margin-left:20%;" id="instagram-icons">
+        </div>
+
+        <div class="col-md-6 pt-5">
+          <p class="h1">Como o <strong>SocialPump</strong> pode te ajudar?</p>
+          <p class="text-justify">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            Duis aute irure dolor in reprehenderit in voluptate velit
+            esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+             sunt in culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+        </div>
+      </div>
+
+      <div align="center">
+        <a href="#" class="botao-rosa">
+          CONHEÇA NOSSOS PLANOS
+        </a>
+      </div>
+
+    </section>
+
+    <section style="z-index:1;">
+    <svg version="1.1" id="Camada_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1400 100" style="enable-background:new 0 0 1400 100;" xml:space="preserve">
+      <style type="text/css">
+        .curva{fill:#fff;}
+      </style>
+      <path class="curva" d="M1400.5,0L0,0c232.4,45.1,419.7,50.7,549.2,47.1C687.2,43.3,754,29.3,914.3,23.9c206-7,375,6.6,486.2,19.4"/>
+      <circle class="curva" cx="0" cy="0" r="0"/>
+    </svg>
+  </section>
+
+    <div class="container-fluid p-5" id="recursos">
+
+      <p class="h1 text-center mb-4 mt-5" style="color:#Fff; font-weight:700;">Quais são as vantagens do Social Pump?</p>
+
+      <div class="row">
+        <div class="col-md-8 mx-auto d-block mt-4">
+          <div class="row mt-5" style="color:#fff;">
+            <div class="col-md-6 text-right">
+              <p><i class="fas fa-check"></i> Quais são as vantagens do Social Pump?</p>
+              <p><i class="fas fa-check"></i> Quais são as vantagens do Social Pump?</p>
+              <p><i class="fas fa-check"></i> Quais são as vantagens do Social Pump?</p>
+              <p><i class="fas fa-check"></i> Quais são as vantagens do Social Pump?</p>
+            </div>
+            <div class="col-md-6 text-right">
+              <p><i class="fas fa-check"></i> Quais são as vantagens do Social Pump?</p>
+              <p><i class="fas fa-check"></i> Quais são as vantagens do Social Pump?</p>
+              <p><i class="fas fa-check"></i> Quais são as vantagens do Social Pump?</p>
+              <p><i class="fas fa-check"></i> Quais são as vantagens do Social Pump?</p>
             </div>
           </div>
         </div>
+        <div class="col-md-3">
+          <img src="img/logo-branca.png" width="80%" id="logo-recursos">
+        </div>
       </div>
-    </section>
 
+      <div class="mb-5" align="center">
+        <a href="#" class="link-planos">
+          MAIS RECURSOS
+        </a>
+      </div>
+    </div>
 
+    <section style="z-index:1;margin-top:-8%;">
+      <svg version="1.1" id="Camada_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1400 100" style="enable-background:new 0 0 1400 100;" xml:space="preserve">
+        <style type="text/css">
+          .curva2{fill:#ececec;}
+        </style>
+        <path class="curva2" d="M0,100h1400.5c-232.4-52.6-419.7-59.1-549.2-55c-138.1,4.4-204.8,20.8-365.1,27.1c-206,8.2-375-7.7-486.2-22.6"/>
+        <circle class="curva2" cx="0" cy="0" r="0"/>
+     </svg>
+   </section>
 
     <section class="container-fluid" id="depoimentos">
       <p class="h1 text-center pt-4" style="font-weight:800;color:#b1269f;">DEPOIMENTOS<br>DOS CLIENTES</h1>
@@ -249,8 +317,8 @@
               Entenda como o SocialPump vai te ajudar a atrair
               seguidores da sua cidade, estado ou região.</p>
 
-          <a href="#" id="assistir-video">
-            <i class="fas fa-chevron-circle-right" style="font-size:1.5rem;"></i> ASSISTA O VÍDEO
+          <a href="#" class="botao-rosa">
+            ASSISTA O VÍDEO
           </a>
         </div>
       </div>
@@ -275,10 +343,10 @@
 
     </section>
 
-    <div class="container-fluid " id="como-configurar-2">
+    <div class="container-fluid " id="chamada-blog">
       <div class="container">
-        <h1 class="display-4 text-center" style="font-weight:900;">3 PASSOS PARA AUMENTAR</h1>
-        <h1 class="display-5 text-center" style="font-weight:900;">OS RESULTADOS NO INSTAGRAM</h1>
+        <h1 class="display-4 text-center" style="font-weight:900;">Últimas Notícias</h1>
+        <p class="text-center">Já conhece o blog do Social Pump?</p>
       </div>
 
       <div id="indicadores-carrossel-2" class="carousel slide mb-5 p-3" data-ride="carousel">
@@ -291,461 +359,41 @@
 
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <div class="container mt-5">
-              <div class="row">
-                <div class="col-lg-5 col-sm-12">
-                  <img src="img/300.png" class="rounded-circle float-right img-fluid">
-                </div>
-                <div class="col-lg-5 col-sm-12">
-                  <h1 style="font-weight:900;color:#021a61;" class="mt-5">DEFINA SEU PÚBLICO ALVO</h1>
-                  <p class="text-justify" style="color:#021a61;">
-                    Defina o segmento de seu público alvo utilizando hashtags,localizações e perfis concorrentes que tenha relação com seu serviço ou produto.
-                  </p>
-                </div>
-              </div>
-            </div>
-
-          </div>
-
-          <div class="carousel-item ">
-            <div class="container mt-5">
-              <div class="row">
-                <div class="col-lg-5 col-sm-12">
-                  <img src="img/300.png" class="rounded-circle float-right img-fluid">
-                </div>
-                <div class="col-lg-5 col-sm-12">
-                  <h1 style="font-weight:900;color:#021a61;" class="mt-5">CRIE CONTEÚDO DE QUALIDADE PARA O SEU PÚBLICO</h1>
-                  <p class="text-justify" style="color:#021a61;">
-                    Nós do Social Pump iremos trabalhar para você ganhar seguidores, curtidas e comentários,
-                    mas é importante que você ofereça um conteúdo de qualidade, se você não oferecer conteúdo para o seu publico, ele ira ir embora sem gerar nenhum resultado para você.
-                  </p>
-                </div>
-              </div>
-            </div>
-
-          </div>
-
-          <div class="carousel-item">
-            <div class="container mt-5">
-              <div class="row">
-                <div class="col-lg-5 col-sm-12">
-                  <img src="img/300.png" class="rounded-circle float-right img-fluid">
-                </div>
-                <div class="col-lg-5 col-sm-12">
-                  <h1 style="font-weight:900;color:#021a61;" class="mt-5">SEMPRE ESTEJA EM PRONTIDÃO PARA O SEU PÚBLICO</h1>
-                  <p class="text-justify" style="color:#021a61;">
-                    Com o aumento das interações no seu perfil é comum que pessoas entre em
-                    contato diariamente com você, é muito importante que todos sejam bem atendidos e que você faça o possível para tirar todas as dúvidas do seu público.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <section>
-
-      <?xml version="1.0" encoding="utf-8"?>
-      <!-- Generator: Adobe Illustrator 21.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-      <svg version="1.1" id="Camada_2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1400 100" style="enable-background:new 0 0 1400 100;" xml:space="preserve">
-      <style type="text/css">
-      	.st1{fill:#021A61;}
-      </style>
-      <path class="st1" d="M0,100C137.5,51.6,344.9,0.2,595,18c94.5,6.7,139.1,25.6,249,40c233.1,30.6,427,10.4,556-12c0,18,0,36,0,54"/>
-      </svg>
-
-
-    </section>
-
-
-    <div class="container-fluid" id="planos">
-      <h1 class="text-center" style="color:#FFF;font-weight:900;">NOSSO PLANO</h1>
-      <p class="text-center" style="color:#FFF;">Aproveite os  valores promocionais e ganhe bônus especiais</p>
-
-      <div class="container mt-5 pb-5">
-        <div class="row">
-          <div class="col">
-            <div class="mx-auto pt-4 pb-4 pl-4 pr-4" id="trimestral">
-              <h1 class="display-5 text-center" style="font-weight:bold; color:#021a61;">Plano Único</h1>
-              <div class="text-center">
-                <span style="color:#b1269f;">R$<span style="font-size:2rem;font-weight:900;">49,90/mês</span>
-                  <p>(ou 15% de desconto com pagamento anual de R$ 508,98)
-                  </p>
-                </span>
-              </div>
-              <!--<div class="bg-secondary text-white mx-auto" style="width:70%;border-radius:50px;font-weight:bold;">
-                <p class="p-1">23% DE DESCONTO</p>
-              </div>-->
-              <div class="row pb-3" >
-                <div class="col-12 col-md-6">
-
-                  <ul class="text-left">
-                    <li>Uma conta</li>
-                    <li>Curtir, Seguir, Comentários e Deixar de seguir</li>
-                    <li>Segmentação por gênero</li>
-                    <li>Filtro por Perfil, Hashtag e Localização</li>
-                    <li>Filtro de seguidores e seguidos</li>
-                    <li>Smart Filter</li>
-                    <li>Direct de Boas-Vindas ou em massa</li>
-                  </ul>
-                </div>
-                <div class="col-12 col-md-6">
-                  <ul class="text-left">
-                    <li>Agendamento de Postagens e Stories</li>
-                    <li>Estatísticas avançadas</li>
-                    <li>Lista Branca de amigos</li>
-                    <li>Lista Negra para não interagir com certos perfis</li>
-                    <li>Conta Extra por R$ 24,90 mensal</li>
-                    <li>Adição ilimitada de contas extras</li>
-                    <li>E muito mais</li>
-                  </ul>
-                </div>
-              </div>
-
-              <div align="center">
-                <a href="#" class="mx-auto text-center p-2" id="botao-assinatura">
-                  ASSINE AGORA >>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-    </div>
-
-    <section>
-      <svg version="1.1" id="Camada_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1400 200" style="enable-background:new 0 0 1400 200;" xml:space="preserve">
-        <style type="text/css">
-	       .st4{fill:#021A61;}
-	       .st3{fill:#ffffff;}
-        </style>
-        <rect class="st3" width="1400" height="100"/>
-        <path class="st4" d="M1400.5,0H0c232.4,86.5,419.7,97.1,549.2,90.3C687.2,83,754,56.2,914.3,45.8c206-13.4,375,12.7,486.2,37.1"/>
-        <circle class="st1" cx="0" cy="0" r="0"/>
-      </svg>
-
-    </section>
-
-    <div class="container-fluid" id="bonus">
-      <div class="container">
-        <h1 class="display-5 text-center" style="font-weight:900; color:#b1269f;">BÔNUS EXCLUSIVO</h1>
-        <p class="text-center" style="color:#b1269f;">Assinando nosso plano você ira receber um bônus que criamos
-          para auxiliar você a criar um perfil profissional no instagram e ainda melhorar seus resultados.
-        </p>
-        <div class="row mt-5">
-          <!--<div class="col-md-4 col-sm-12 mb-4">
-            <img src="img/200.png" class="mx-auto d-block img-fluid rounded-circle">
-            <h4 class="text-center mt-2" style="font-weight:900;color:#021A61;">E-BOOK</h4>
-            <p class="text-center" style="color:#b1269f;">Manual para bombar seu instagram</p>
-          </div>-->
-          <div class="col-md-4 col-sm-12 offset-md-4 mb-4">
-            <img src="img/200.png" class="mx-auto d-block img-fluid rounded-circle">
-            <h4 class="text-center mt-2" style="font-weight:900;color:#021A61;">E-BOOK</h4>
-            <p class="text-center" style="color:#b1269f;">10 dicas para criar um perfil profissional no instagram e aumentar suas vendas.</p>
-          </div>
-          <!--
-          <div class="col-md-4 col-sm-12 mb-4">
-            <img src="img/200.png" class="mx-auto d-block img-fluid rounded-circle">
-            <h4 class="text-center mt-2" style="font-weight:900;color:#021A61">VIDEOAULA</h4>
-            <p class="text-center" style="color:#b1269f;">Como criar fotos profissionais<br>para seu Instagram</p>
-          </div>-->
-        </div>
-      </div>
-    </div>
-    <section>
-      <svg version="1.1" id="Camada_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1400 150" style="enable-background:new 0 0 1400 150;" xml:space="preserve">
-        <style type="text/css">
-	       .st0{fill:#ECECEC;}
-        </style>
-        <path class="st0" d="M0,126c93-40.9,234.2-88.6,407-88c141.4,0.5,229.2,33.1,328,54c147.9,31.3,367.7,46.5,666-39l-1,97H0V126z"/>
-      </svg>
-
-    </section>
-
-    <div class="container-fluid" id="garantia">
-
-      <div class="container">
-        <h1 class="display-5 text-center" style="font-weight:900;">GARANTIA DE SATISFAÇÃO<br>OU SEU DINHEIRO DE VOLTA</h1>
-        <br>
-        <div class="row">
-          <div class="col-md-4 col-12">
-            <img src="img/garantia.png" class="mx-auto d-block img-fluid" width="60%" id="img-garantia">
-          </div>
-          <div class="col-md-8 col-12 mt-5">
-            <div class="p-2">
-              <p style="font-size:1.3rem;">
-                Nossa plataforma esta gerando tantos resultados para vários negócios que resolvemos da mais um motivo para você escolher o social pump.<br>
-                Se durante os primeiro 7 dias de sua assinatura você não estiver satisfeito, devolveremos o valor integral investido no <strong>Social Pump</strong>.
+            <div class="container p-5">
+              <h1 style="font-weight:900;color:#021a61;" class="mt-5">Como definir seu público alvo</h1>
+              <p class="text-justify" style="color:#021a61;">
+                Defina o segmento de seu público alvo utilizando hashtags,localizações e perfis concorrentes que tenha relação com seu serviço ou produto.
               </p>
             </div>
           </div>
-        </div>
-      </div>
-    </div>
 
-    <section>
-
-      <svg version="1.1" id="Camada_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1400 100" style="enable-background:new 0 0 1400 100;" xml:space="preserve">
-      <style type="text/css">
-        .st5{fill:#ECECEC;}
-      </style>
-      <path class="st5" d="M0,0l1400.5,0c-232.4,86.5-419.7,97.1-549.2,90.3C713.3,83,646.5,56.2,486.2,45.8C280.2,32.4,111.2,58.5,0,82.9
-        "/>
-      <circle class="st0" cx="0" cy="0" r="0"/>
-      </svg>
-
-
-    </section>
-
-    <!--
-
-    <div class="container-fluid mb-0" id="resultados">
-      <div class="container">
-        <h1 class="display-5 text-center" style="font-weight:900;color:#b1269f">RESULTADOS</h1>
-      </div>
-      <div class="container">
-        <div class="row">
-          <div class="col-md-6 col-sm-12 p-5">
-            <p class="h1" style="font-weight:900;color:#021a61;">NUTRIÇÃO</p>
-            <p class="h3" style="color:#021a61;">MAIS DE 36.000 SEGUIDORES</p>
-            <p class="text-justify" style="color:#b1269f">Texto explicativo. Texto explicativo.Texto explicativo.Texto explicativo.
-              Texto explicativo. Texto explicativo.Texto explicativo.Texto explicativo.
-              Texto explicativo. Texto explicativo.Texto explicativo.Texto explicativo.
-              Texto explicativo. Texto explicativo.Texto explicativo.Texto explicativo.</p>
+          <div class="carousel-item ">
+            <div class="container p-5">
+              <h1 style="font-weight:900;color:#021a61;" class="mt-5">Como Criar Conteúdo de Qualidade para o seu público</h1>
+              <p class="text-justify" style="color:#021a61;">
+                  Nós do Social Pump iremos trabalhar para você ganhar seguidores, curtidas e comentários,
+                  mas é importante que você ofereça um conteúdo de qualidade, se você não oferecer conteúdo para o seu publico,
+                  ele ira ir embora sem gerar nenhum resultado para você.
+              </p>
+            </div>
           </div>
-          <div class="col-md-6 col-sm-12">
-            <img src="img/celular-resultados.png" class="mx-auto d-block img-fluid" width="70%">
+
+          <div class="carousel-item">
+            <div class="container p-5">
+              <h1 style="font-weight:900;color:#021a61;" class="mt-5">Como atender o seu público</h1>
+              <p class="text-justify" style="color:#021a61;">
+                Com o aumento das interações no seu perfil é comum que pessoas entre em
+                contato diariamente com você, é muito importante que todos sejam bem atendidos e que você faça o possível para tirar
+                todas as dúvidas do seu público.
+              </p>
+
+            </div>
           </div>
         </div>
       </div>
     </div>
-    <section>
-
-      <svg version="1.1" id="Camada_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1400 100" style="enable-background:new 0 0 1400 100;" xml:space="preserve">
-      <style type="text/css">
-      	.st2{fill:#ECECEC;}
-      </style>
-      <path class="st2" d="M1400.5,0H0c232.4,86.5,419.7,97.1,549.2,90.3C687.2,83,754,56.2,914.3,45.8c206-13.4,375,12.7,486.2,37.1"/>
-      </svg>
 
 
-    </section>-->
-
-    <div class="container-fluid">
-      <div class="container" id="faq">
-        <h1 class="display-5 text-center pt-5" style="font-weight:900;color:#b1269f;">PERGUNTAS FREQUENTES</h1>
-        <p class="text-center"style="color:#b1269f;">Confira as principais dúvidas de quem procura o SocialPump para ganhar seguidores<br>
-          e alavancar o seu negócio através do Instagram.
-        </p>
-
-        <div class="row mt-5">
-          <div class="col-md-6" id="botoes-faq">
-            <a class="p-2 mb-3" data-toggle="collapse" href="#collapse1" aria-expanded="false" aria-controls="collapseExample" id="link-teste">
-              <div class="row">
-                <div class="col-10 col-lg-11">
-                  Quais os resultados de quem usa o SocialPump?
-                </div>
-                <div class="col-2 col-lg-1">
-                  <i class="fas fa-chevron-circle-down"></i>
-                </div>
-              </div>
-            </a>
-            <div class="collapse" id="collapse1">
-              <div class="card card-body">
-                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
-              </div>
-            </div>
-            <br>
-            <a class="p-2 mb-3" data-toggle="collapse" href="#collapse2" aria-expanded="false" aria-controls="collapseExample" id="link-teste">
-              <div class="row">
-                <div class="col-10 col-lg-11">
-                  Como funciona o SocialPump?
-                </div>
-                <div class="col-2 col-md-1">
-                  <i class="fas fa-chevron-circle-down"></i>
-                </div>
-              </div>
-            </a>
-            <div class="collapse" id="collapse2">
-              <div class="card card-body">
-                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
-              </div>
-            </div>
-            <br>
-            <a class="p-2 mb-3" data-toggle="collapse" href="#collapse3" aria-expanded="false" aria-controls="collapseExample" id="link-teste">
-              <div class="row">
-                <div class="col-10 col-lg-11">
-                  O SocialPump é seguro?
-                </div>
-                <div class="col-2 col-lg-1">
-                  <i class="fas fa-chevron-circle-down"></i>
-                </div>
-              </div>
-            </a>
-            <div class="collapse" id="collapse3">
-              <div class="card card-body">
-                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
-              </div>
-            </div>
-            <br>
-            <a class="p-2 mb-3" data-toggle="collapse" href="#collapse4" aria-expanded="false" aria-controls="collapseExample" id="link-teste">
-              <div class="row">
-                <div class="col-10 col-lg-11">
-                  Preciso instalar algum programa?
-                </div>
-                <div class="col-2 col-lg-1">
-                  <i class="fas fa-chevron-circle-down"></i>
-                </div>
-              </div>
-            </a>
-            <div class="collapse" id="collapse4">
-              <div class="card card-body">
-                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
-              </div>
-            </div>
-            <br>
-            <a class="p-2 mb-3" data-toggle="collapse" href="#collapse5" aria-expanded="false" aria-controls="collapseExample" id="link-teste">
-              <div class="row">
-                <div class="col-10 col-lg-11">
-                  Preciso informar a minha senha?
-                </div>
-                <div class="col-2 col-lg-1">
-                  <i class="fas fa-chevron-circle-down"></i>
-                </div>
-              </div>
-            </a>
-            <div class="collapse" id="collapse5">
-              <div class="card card-body">
-                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
-              </div>
-            </div>
-            <br>
-            <a class="p-2 mb-3" data-toggle="collapse" href="#collapse6" aria-expanded="false" aria-controls="collapseExample" id="link-teste">
-              <div class="row">
-                <div class="col-10 col-lg-11">
-                  Existe alguma taxa de cancelamento?
-                </div>
-                <div class="col-2 col-lg-1">
-                  <i class="fas fa-chevron-circle-down"></i>
-                </div>
-              </div>
-            </a>
-            <div class="collapse" id="collapse6">
-              <div class="card card-body">
-                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-6" id="botoes-faq">
-            <a class="p-2 mb-3" data-toggle="collapse" href="#collapse7" aria-expanded="false" aria-controls="collapseExample" id="link-teste">
-              <div class="row">
-                <div class="col-10 col-lg-11">
-                  Como funcionam os planos?
-                </div>
-                <div class="col-2 col-lg-1">
-                  <i class="fas fa-chevron-circle-down"></i>
-                </div>
-              </div>
-            </a>
-            <div class="collapse" id="collapse7">
-              <div class="card card-body">
-                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
-              </div>
-            </div>
-            <br>
-            <a class="p-2 mb-3" data-toggle="collapse" href="#collapse8" aria-expanded="false" aria-controls="collapseExample" id="link-teste">
-              <div class="row">
-                <div class="col-10 col-lg-11">
-                  Em quantas contas posso usar o SocialPump?
-                </div>
-                <div class="col-2 col-lg-1">
-                  <i class="fas fa-chevron-circle-down"></i>
-                </div>
-              </div>
-            </a>
-            <div class="collapse" id="collapse8">
-              <div class="card card-body">
-                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
-              </div>
-            </div>
-            <br>
-            <a class="p-2 mb-3" data-toggle="collapse" href="#collapse9" aria-expanded="false" aria-controls="collapseExample" id="link-teste">
-              <div class="row">
-                <div class="col-10 col-lg-11">
-                  Quantos seguidores vou ganhar?
-                </div>
-                <div class="col-2 col-lg-1">
-                  <i class="fas fa-chevron-circle-down"></i>
-                </div>
-              </div>
-            </a>
-            <div class="collapse" id="collapse9">
-              <div class="card card-body">
-                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
-              </div>
-            </div>
-            <br>
-            <a class="p-2 mb-3" data-toggle="collapse" href="#collapse10" aria-expanded="false" aria-controls="collapseExample" id="link-teste">
-              <div class="row">
-                <div class="col-10 col-lg-11">
-                  O Gerenciagram é confiável?
-                </div>
-                <div class="col-2 col-lg-1">
-                  <i class="fas fa-chevron-circle-down"></i>
-                </div>
-              </div>
-            </a>
-            <div class="collapse" id="collapse10">
-              <div class="card card-body">
-                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
-              </div>
-            </div>
-            <br>
-            <a class="p-2 mb-3" data-toggle="collapse" href="#collapse11" aria-expanded="false" aria-controls="collapseExample" id="link-teste">
-              <div class="row">
-                <div class="col-10 col-lg-11">
-                  Quem são os clientes do SocialPump?
-                </div>
-                <div class="col-2 col-lg-1">
-                  <i class="fas fa-chevron-circle-down"></i>
-                </div>
-              </div>
-            </a>
-            <div class="collapse" id="collapse11">
-              <div class="card card-body">
-                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
-              </div>
-            </div>
-            <br>
-            <a class="p-2 mb-3" data-toggle="collapse" href="#collapse12" aria-expanded="false" aria-controls="collapseExample" id="link-teste">
-              <div class="row">
-                <div class="col-10 col-lg-11">
-                  Posso revender o SocialPump?
-                </div>
-                <div class="col-2 col-lg-1">
-                  <i class="fas fa-chevron-circle-down"></i>
-                </div>
-              </div>
-            </a>
-            <div class="collapse" id="collapse12">
-              <div class="card card-body">
-                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="text-center mt-4 mb-5">
-        <a href="#" class="mx-auto text-center" id="veja-todas">
-          VEJA TODAS >
-        </a>
-      </div>
-    </div>
     <svg version="1.1" id="Camada_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1400 100" style="enable-background:new 0 0 1400 100;" xml:space="preserve">
       <style type="text/css">
         .st8{fill:#fff;}

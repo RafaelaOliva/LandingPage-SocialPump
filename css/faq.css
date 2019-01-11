@@ -1,0 +1,47 @@
+/*card do FAQ*/
+.card {
+  border: 1px solid #b1269f;
+  color: #021a61;
+}
+#link-teste {
+  width:100%;
+}
+#link-teste:link, #link-teste:visited {
+  background-color: #fff;
+  color: #b1269f;
+  text-decoration: none;
+  display: inline-block;
+  border: 1px solid #b1269f;
+  border-radius: 10px;
+}
+
+
+#link-teste:hover, #link-teste:active {
+  background-color: #b1269f;
+  border-color: #fff;
+  color: #fff;
+}
+
+* {
+  font-family: 'Abel', sans-serif;
+
+}
+#veja-todas {
+  background-color: #021a61;
+  color: #fff;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 50px;
+  padding-top:0.5%;
+  padding-right: 2%;
+  padding-left: 2%;
+  font-weight:600;
+  transition:0.3s;
+  font-size:1.1rem;
+}
+
+#veja-todas:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transform: scale(1.1);
+
+}
