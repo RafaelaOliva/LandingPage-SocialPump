@@ -3,7 +3,19 @@
 
 }
 
+.garantia {
+  background-color:#ececec;
+  margin-top: -7% ;
+  z-index:-1;
+}
 
+.garantia p.h1 {
+  color: #000;
+}
+
+.garantia p.text-justify {
+  color:#021a61;
+}
 header {
   background-image: url('../img/banner-planos.png');
   background-size: cover;
@@ -138,4 +150,9 @@ div#myDiv div h1.display-4, p.h1 {
   #recursos-esquerda {
     height: auto;
   }
+
+  .container .row .col-md-4 img {
+    margin-left: 10%;
+  }
+
 }

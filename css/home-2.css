@@ -79,6 +79,17 @@ header nav {
 
 }
 
+.link-blog {
+  color:#021a61;
+  font-size: 1.2rem;
+  transition: 0.3s;
+}
+
+.link-blog:hover {
+  text-decoration: none;
+  color: #b1269f;
+}
+
 .link-planos {
   background-color: transparent;
   color: #fff;
