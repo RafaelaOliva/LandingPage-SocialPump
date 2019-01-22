@@ -44,8 +44,8 @@ header nav {
 }
 
  #teste-gratis {
-   background-color: transparent;
-   color: #fff;
+   background-color: #fff;
+   color: #b1269f;
    text-decoration: none;
    display: inline-block;
    border-radius: 50px;
@@ -56,13 +56,12 @@ header nav {
    font-weight:600;
    transition:0.3s;
    font-size:1.3rem;
-   border: 2px solid #fff;
  }
 
  #teste-gratis:hover {
    transform: scale(1.1);
-   background-color: #fff;
-   color: #4d4e4f;
+   color: #fff;
+   background-color: #b1269f;
    text-decoration: none;
  }
 
@@ -119,6 +118,7 @@ button.leiamais-btn:hover {
   font-weight: bold;
   transition: 0.3s;
   padding:0.5%;
+  font-size:1.3rem;
 }
 
 .botao-contratar-plano:hover {
@@ -126,6 +126,7 @@ button.leiamais-btn:hover {
   transform: scale(1.1);
   text-decoration: none;
   color: #b1269f;
+
 }
 
 
@@ -186,7 +187,7 @@ button.leiamais-btn:hover {
 }
 
 .botao-branco {
-  background-color: transparent;
+  background-color: #b1269f;
   color: #fff;
   text-decoration: none;
   display: inline-block;
@@ -194,10 +195,10 @@ button.leiamais-btn:hover {
   padding-top:0.5%;
   padding-right: 2%;
   padding-left: 2%;
+  padding-bottom:0.5%;
   font-weight:600;
   transition:0.3s;
   font-size:1.3rem;
-  border: 2px solid #fff;
 }
 
 .botao-branco:hover {
@@ -205,6 +206,7 @@ button.leiamais-btn:hover {
   text-decoration: none;
   color: #b1269f;
   background-color: #fff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 #chamada-blog .display-4 {
@@ -388,7 +390,8 @@ p.texto-azul {
   }
 
   #instagram-icons {
-    margin-left: 10% !important;
+    margin-left: -1% !important;
+    width:100%;
   }
 
   .link-planos {
