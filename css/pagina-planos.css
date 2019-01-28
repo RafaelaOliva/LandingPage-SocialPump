@@ -16,7 +16,7 @@
 .garantia p.text-justify {
   color:#021a61;
 }
-header {
+#capa {
   background-image: url('../img/banner-planos.png');
   background-size: cover;
   color: #fff;
