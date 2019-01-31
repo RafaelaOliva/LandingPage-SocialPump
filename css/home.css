@@ -30,7 +30,6 @@ header nav {
 
 #depoimentos {
   background-color: #ececec;
-  height:700px;
   z-index:-1;
 }
 
@@ -283,7 +282,7 @@ button.leiamais-btn:hover {
   color: #fff;
 }
 
-.carousel-indicators #indicador{
+#indicador{
   border: 2px solid #b1269f;
   border-radius: 50px;
   width:2rem;
@@ -295,15 +294,6 @@ button.leiamais-btn:hover {
 
 }
 
-
-
-#indicador-depoimentos li {
-  border: 1px solid #021a61;
-  width:0.5rem;
-  height:0.5rem;
-  border-radius:50px;
-  background-color:#021a61;
-}
 
 #margem-itens {
   margin-top:-15% !important;
@@ -321,17 +311,91 @@ svg #ueue {
   height: 200px;
 }
 
-#indicador-depoimentos {
-  background-color:#808284;
-  width:10%;
-  margin-left:45%;
-  margin-bottom:-2%;
-  border-radius:50px;
-  padding:0.5%;
-}
 
 p.texto-azul {
   color:#021a61;
+}
+
+p.depoimentos {
+	color: #333;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+	position: relative;
+	margin: 30px 0 60px;
+}
+p.depoimentos::after {
+	content: "";
+	width: 100px;
+	position: absolute;
+	margin: 0 auto;
+	height: 3px;
+	background: #b1269f;
+	left: 0;
+	right: 0;
+	bottom: -10px;
+}
+.col-center {
+	margin: 0 auto;
+	float: none !important;
+}
+.carousel {
+	margin: 50px auto;
+	padding: 0 70px;
+}
+.carousel .item {
+	color: #999;
+
+    text-align: center;
+	overflow: hidden;
+    min-height: 290px;
+}
+.carousel .item .img-box {
+	width: 135px;
+	height: 135px;
+	margin: 0 auto;
+	padding: 5px;
+	border: 1px solid #ddd;
+	border-radius: 50%;
+}
+.carousel .img-box img {
+	width: 100%;
+	height: 100%;
+	display: block;
+	border-radius: 50%;
+}
+.carousel .testimonial {
+	padding: 30px 0 10px;
+  color: #1e1e1e;
+}
+
+.carousel .overview {
+  font-size: 1rem;
+  font-weight: bold;
+}
+.carousel .overview b {
+	text-transform: uppercase;
+	color: #b1269f;
+  font-size: 1.5rem;
+}
+
+#indicadores-depoimentos {
+	bottom: -40px;
+
+}
+#indicadores-depoimentos li, #indicadores-depoimentos li.active {
+	border-radius: 50%;
+}
+#indicadores-depoimentos li {
+	background: #999;
+	border-color: transparent;
+  width: 1.3rem;
+  height: 0.1rem;
+
+}
+#indicadores-depoimentos li.active {
+	background: #555;
+
 }
 
 @media only screen and (max-width: 600px) {
@@ -349,20 +413,12 @@ p.texto-azul {
     width:70%;
   }
 
-  .carousel-indicators {
-    margin-top: 50%;
-  }
+
 
   #contato {
     margin-top:-7% !important;
   }
 
-  .carousel #indicador-depoimentos {
-    width:20% !important;
-    margin-left: 40% !important;
-    margin-bottom:-5% !important;
-
-  }
 
 
   #teste-gratis:hover {
@@ -384,10 +440,7 @@ p.texto-azul {
     padding:-20%;
   }
 
-  #depoimentos {
-    height: auto;
-    padding-bottom: 15%;
-  }
+
 
   #instagram-icons {
     margin-left: -1% !important;
