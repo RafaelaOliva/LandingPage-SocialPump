@@ -34,7 +34,7 @@ header nav {
 }
 
 #recursos {
-  background-color: #dbdbdb;
+  background-color: #b1269f;
   z-index: -1;
 }
 
@@ -75,7 +75,7 @@ p.texto-rosa {
 }
 
 button.leiamais-btn {
-  background-color:#b1269f;
+  background-color:#021a61;
   width:40%;
   margin-top:-5%;
   border-style: none;
@@ -200,13 +200,29 @@ button.leiamais-btn:hover {
   font-size:1.3rem;
 }
 
-.botao-branco:hover {
+.botao-branco:hover, .botao-azul:hover {
   transform: scale(1.1);
   text-decoration: none;
   color: #b1269f;
   background-color: #fff;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+
+.botao-azul {
+  background-color: #021a61;
+  color: #fff;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 50px;
+  padding-top:0.5%;
+  padding-right: 2%;
+  padding-left: 2%;
+  padding-bottom:0.5%;
+  font-weight:600;
+  transition:0.3s;
+  font-size:1.3rem;
+}
+
 
 #chamada-blog .display-4 {
   color: #b1269f;
@@ -398,8 +414,21 @@ p.depoimentos::after {
 
 }
 
+#suporte .container {
+  color: #021a61;
+}
+#suporte .container header .h1 {
+  font-weight: bold;
+}
+#suporte .container section p {
+  font-size: 1.4rem;
+}
+
 @media only screen and (max-width: 600px) {
 
+  .botao-branco {
+    font-size:1.2rem;
+  }
 
   #veja-todas {
     width:70%;
@@ -466,6 +495,18 @@ p.depoimentos::after {
 
   #wave-gradiente {
     margin-top:-1%;
+  }
+
+  .col-md-7 section p.texto-direita{
+    text-align: right;
+  }
+
+  #imagem-celular {
+    margin-left:15%;
+  }
+
+  ul.mt-3 {
+    text-align:left;
   }
 }
 
